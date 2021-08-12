@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Header from "./Header";
+import Home from "./Home";
 function App() {
   return (
     <Router>
@@ -15,77 +16,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header/>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
-            <h1>Home Page_|_</h1>
+            <Home/>
           </Route>
         </Switch>
       </div>
