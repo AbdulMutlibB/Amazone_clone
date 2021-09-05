@@ -2,7 +2,23 @@ import React from "react";
 import "./Product.css";
 import StarIcon from "@material-ui/icons/Star";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
+import { useStateValue } from "../StateProvider/StateProvider";
 function Product({ image, id, title, rating, price }) {
+  const [{}, dispatch] = useStateValue();
+
+  const addToBasket = () => {
+    dispatch({
+      type: "ADD_TO_BASKET",
+      item: {
+        id: id,
+        title: title,
+        image: image,
+        price: price,
+        rating: rating
+      },
+    });
+  };
+
   const Numberss = () => {
     const stars = 5 - rating;
     return Array(stars)
@@ -28,7 +44,7 @@ function Product({ image, id, title, rating, price }) {
         </div>
       </div>
       <img src={image} alt="" />
-      <button>add to basket</button>        
+      <button onClick={addToBasket}>add to basket</button>
     </div>
   );
 }
