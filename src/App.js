@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
+import Header from './Components/header/Header'
+import Home from "./Components/home/Home";
 function App() {
   return (
     <Router>

@@ -1,9 +1,10 @@
 import React from 'react'
 import './Product.css'
-function Product() {
+function Product({id,title,price,rating,image}) {
     return (
         <div>
-            <h1>sada</h1>
+            <h1> {id}{title}{price} </h1>
+            <img src={image}/>
         </div>
     )
 }
