@@ -34,3 +34,7 @@
     border: 1px solid;
     border-color: #a88734 #9c7e31 #848a29;
 }
+.checkoutProuduct__title{
+    font-weight: 800;
+    font-size: 17px;
+}

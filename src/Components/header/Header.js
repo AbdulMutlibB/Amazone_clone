@@ -3,14 +3,13 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
-import { SportsBasketball } from "@material-ui/icons";
 import {useStateValue} from '../StateProvider/StateProvider'
 function Header() {
 const [{basket}]= useStateValue();
 
   return (
     <nav className="header">
-      <Link to="checkOut">
+      <Link to="/">
         <img
           className="navbar__logo"
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
